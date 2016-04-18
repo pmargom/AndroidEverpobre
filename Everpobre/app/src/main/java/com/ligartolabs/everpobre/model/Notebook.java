@@ -12,6 +12,10 @@ public class Notebook {
         this.name = name;
     }
 
+    private Notebook() {
+        // disabled default constructor, customer required
+    }
+
     public int getId() {
         return id;
     }
