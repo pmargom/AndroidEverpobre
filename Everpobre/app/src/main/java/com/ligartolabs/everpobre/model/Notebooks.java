@@ -25,6 +25,18 @@ public class Notebooks {
 
     }
 
+    public int size() {
+        return getNotebooks().size();
+    }
+
+    public Notebook get(int index) {
+        return getNotebooks().get(index);
+    }
+
+    public void remove(Notebook notebook) {
+        getNotebooks().remove(notebook);
+    }
+
     public void add(Notebook n) {
         getNotebooks().add(n); // no usamos variables de instancia por no ser ni el constructor ni fuera de los getters
     }
